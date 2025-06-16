@@ -11,13 +11,40 @@
 
 </head>
 
-<body class="p-3 mb-2 bg-danger text-white" >
+<body class="mb-2 bg-danger text-white">
+    <nav class="nav bg-danger navbar-expand-lg bg-body-tertiary d-flex justify-content-center">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <section class="d-flex align-items-center"">
+                    <img src="https://cdn2.steamgriddb.com/icon_thumb/9efd228f67d1bffa56c0e5f73bdcc18e.png" alt="Logo"
+                        width="50" height="50" class="d-inline-block align-text-top">
+                    <p class="bg-success m-2">SM64coopdx</p>
+                </section>
+        </div>
+        <a class="nav-link" href="Login Page.html">Login</a>
+        <a class="nav-link" href="Upload.html">Upload</a>
+        <a class="nav-link" href="Gallery.html">Gallery</a>
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="Gallery.html">DropDown</a>
+        <ul class="dropdown-menu">
+            <li class="dropdown-item bg-danger">About</li>
+            <li class="dropdown-item bg-danger">Contact</li>
+
+        </ul>
+
+        <div class="container-link">
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+
+    </nav>
     <div style="width: 300px;" class="d-flex flex-column mx-auto shadow p-2">
-    <lable class="form-label">Description</lable>
-    <input class="form-control">
-    <label class="form-label">Picture</label>
-    <input type="file" class="form-control">
-    <button type="button" class="btn btn-success">Save</button>
-</div>
+        <lable class="form-label">Description</lable>
+        <input class="form-control">
+        <label class="form-label">Picture</label>
+        <input type="file" class="form-control">
+        <button type="button" class="btn btn-success">Save</button>
+    </div>
 
 </body>
